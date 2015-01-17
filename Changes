@@ -1,5 +1,10 @@
 Revision history for Lingua-IND-Numbers
 
+0.06  2015-01-17T09:50:00+01:00
+      - Removed SIGNATURE file.
+      - Updated MANIFEST.SKIP file to ignore folder 'eumm/'.
+      - Updated Copyright year information.
+
 0.05  2014-11-27T21:12:00+01:00
       - Renamed section 'Name' to 'NUMBERS'
       - Minor changes to the method to_string().
