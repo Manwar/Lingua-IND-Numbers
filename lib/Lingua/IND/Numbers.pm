@@ -1,6 +1,6 @@
 package Lingua::IND::Numbers;
 
-$Lingua::IND::Numbers::VERSION = '0.06';
+$Lingua::IND::Numbers::VERSION = '0.07';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Lingua::IND::Numbers - Indian Numbering System representation
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =cut
 
@@ -34,29 +34,29 @@ languages.
 The  terms  lakh  (100,000)  and crore (10,000,000) are used in Indian English to
 express large numbers.
 
-    +------------------------------------+----------------------------+
-    | Name                               | Indian Figure              |
-    +------------------------------------+----------------------------+
-    | Shunya (Zero)                      | 0                          |
-    | Ek (One)                           | 1                          |
-    | Das (Ten)                          | 10                         |
-    | Sau (One Hundres)                  | 100                        |
-    | Hazaar (One Thousand)              | 1,000                      |
-    | Das Hazaar (Ten Thousand)          | 10,000                     |
-    | Lakh (Hundred Thousand)            | 1,00,000                   |
-    | Das Lakh                           | 10,00,000                  |
-    | Crore                              | 1,00,00,000                |
-    | Das Crore                          | 10,00,00,000               |
-    | Arab (One Hundred Crore)           | 1,00,00,00,000             |
-    | Das Arab (One Thousand Crore)      | 10,00,00,00,000            |
-    | Kharab (Ten Thousand Crore)        | 1,00,00,00,00,000          |
-    | Das Kharab (One Lakh Crore)        | 10,00,00,00,00,000         |
-    | Neel (Ten Lakh Crore)              | 1,00,00,00,00,00,000       |
-    | Das Neel (One Crore Crore)         | 10,00,00,00,00,00,000      |
-    | Padm (Ten Crore Crore)             | 1,00,00,00,00,00,00,000    |
-    | Das Padm (One Hundred Crore Crore) | 10,00,00,00,00,00,00,000   |
-    | Shankh (One Lakh Lakh Crore)       | 1,00,00,00,00,00,00,00,000 |
-    +------------------------------------+----------------------------+
+    +------------------------------------+--------------------------------------+
+    | Name                               | Indian Figure                        |
+    +------------------------------------+--------------------------------------+
+    | Shunya (Zero)                      | 0                                    |
+    | Ek (One)                           | 1                                    |
+    | Das (Ten)                          | 10                                   |
+    | Sau (One Hundres)                  | 100                                  |
+    | Hazaar (One Thousand)              | 1,000                                |
+    | Das Hazaar (Ten Thousand)          | 10,000                               |
+    | Lakh (Hundred Thousand)            | 1,00,000                             |
+    | Das Lakh                           | 10,00,000                            |
+    | Crore                              | 1,00,00,000                          |
+    | Das Crore                          | 10,00,00,000                         |
+    | Arab (One Hundred Crore)           | 1,00,00,00,000                       |
+    | Das Arab (One Thousand Crore)      | 10,00,00,00,000                      |
+    | Kharab (Ten Thousand Crore)        | 1,00,00,00,00,000                    |
+    | Das Kharab (One Lakh Crore)        | 10,00,00,00,00,000                   |
+    | Neel (Ten Lakh Crore)              | 1,00,00,00,00,00,000                 |
+    | Das Neel (One Crore Crore)         | 10,00,00,00,00,00,000                |
+    | Padm (Ten Crore Crore)             | 1,00,00,00,00,00,00,000              |
+    | Das Padm (One Hundred Crore Crore) | 10,00,00,00,00,00,00,000             |
+    | Shankh (One Lakh Lakh Crore)       | 1,00,00,00,00,00,00,00,000           |
+    +------------------------------------+--------------------------------------+
 
 Source: L<wikipedia|http://en.wikipedia.org/wiki/Indian_Numbering_System>
 
@@ -82,7 +82,7 @@ Source: L<wikipedia|http://en.wikipedia.org/wiki/Indian_Numbering_System>
     +------------+--------+   +------------+--------+   +-----------+--------+
     | Name       | Number |   | Name       | Number |   | Name      | Number |
     +------------+--------+   +------------+--------+   +-----------+--------+
-    | Ektee      |   31   |   | Ektalees   |   41   |   | Ekaawan   |   51   |
+    | Ektees     |   31   |   | Ektalees   |   41   |   | Ekaawan   |   51   |
     | Battees    |   32   |   | Beyalees   |   42   |   | Baawan    |   52   |
     | Taitees    |   33   |   | Taitalees  |   43   |   | Tirpan    |   53   |
     | Chautees   |   34   |   | Chaualees  |   44   |   | Chauwan   |   54   |
