@@ -9,7 +9,6 @@ WriteMakefile(
     VERSION_FROM       => 'lib/Lingua/IND/Numbers.pm',
     ABSTRACT_FROM      => 'lib/Lingua/IND/Numbers.pm',
     LICENSE            => 'artistic_2',
-    PL_FILES           => {},
     MIN_PERL_VERSION   => 5.006,
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 0,
@@ -26,11 +25,14 @@ WriteMakefile(
     clean => { FILES => 'Lingua-IND-Numbers-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
+        provides    => {
+            'Lingua::IND::Numbers' => { file => 'lib/Lingua/IND/Numbers.pm', version => '0.09' },
+        },
         resources => {
             repository => {
                 type => 'git',
-                url  => 'https://github.com/Manwar/Lingua-IND-Numbers.git',
-                web  => 'https://github.com/Manwar/Lingua-IND-Numbers',
+                url  => 'https://github.com/manwar/Lingua-IND-Numbers.git',
+                web  => 'https://github.com/manwar/Lingua-IND-Numbers',
             },
         }})
      : ()

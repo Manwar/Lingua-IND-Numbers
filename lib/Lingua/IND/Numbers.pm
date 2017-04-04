@@ -1,6 +1,7 @@
 package Lingua::IND::Numbers;
 
-$Lingua::IND::Numbers::VERSION = '0.08';
+$Lingua::IND::Numbers::VERSION   = '0.09';
+$Lingua::IND::Numbers::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
@@ -8,7 +9,7 @@ Lingua::IND::Numbers - Indian Numbering System representation
 
 =head1 VERSION
 
-Version 0.08
+Version 0.09
 
 =cut
 
@@ -233,7 +234,7 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/Lingua-IND-Numbers>
+L<https://github.com/manwar/Lingua-IND-Numbers>
 
 =head1 BUGS
 
