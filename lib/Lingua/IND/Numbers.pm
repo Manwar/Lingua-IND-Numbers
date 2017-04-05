@@ -1,6 +1,6 @@
 package Lingua::IND::Numbers;
 
-$Lingua::IND::Numbers::VERSION   = '0.09';
+$Lingua::IND::Numbers::VERSION   = '0.10';
 $Lingua::IND::Numbers::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Lingua::IND::Numbers - Indian Numbering System representation
 
 =head1 VERSION
 
-Version 0.09
+Version 0.10
 
 =cut
 
